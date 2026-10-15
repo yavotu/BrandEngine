@@ -16,7 +16,7 @@ A sophisticated brand name generator with domain availability checking, scoring,
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Lewismwaz/BrandEngine.git
+git clone https://github.com/Yavotu/BrandEngine.git
 cd BrandEngine
 ```
 
