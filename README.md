@@ -22,9 +22,7 @@ cd BrandEngine
 
 2. Ensure you have Python 3.10+ installed and added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
 
-![Build Complete](Complete.png)
-
-3. Download **`vc_redist.x64.exe`** from [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) into the project root.
+3. Incase you get errors, download **`vc_redist.x64.exe`** from [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) into the project root.
 4. To convert `png logo` to `icon`, from root (`BrandEngine`), open terminal and run:
    ```python
    python -m pip install Pillow
@@ -47,7 +45,8 @@ You should see a file a few KB in size. Open it in Explorer — you should see t
  run `build.exe`:
  
 ![Build Complete](2.png)
-   
+
+![Build Complete](Complete.png)
 
 ### User Interface
 ![Build Complete](1.png)
