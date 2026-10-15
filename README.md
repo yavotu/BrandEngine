@@ -33,7 +33,7 @@ cd BrandEngine
 ```powershell
 Get-Item assets\icon.ico | Select-Object Name, Length
 ```
-You should see a file a few KB in size. Open it in Explorer — you should see the logo icon.
+- You should see a file a few KB in size. Open it in Explorer — you should see the logo icon.
 
 5. Build via terminal:
    ```python
@@ -42,7 +42,7 @@ You should see a file a few KB in size. Open it in Explorer — you should see t
  
  OR 
  
- run `build_exe.py`:
+ - run `build_exe.py`:
  
 ![Build Complete](2.png)
 
@@ -54,11 +54,11 @@ You should see a file a few KB in size. Open it in Explorer — you should see t
 ![Build Complete](1a.png)
 
 ## License
-This project is licensed under the GNU License. View License [here](https://github.com/Yavotu/BrandEngine/blob/main/LICENSE).  
+- This project is licensed under the GNU License. View License [here](https://github.com/Yavotu/BrandEngine/blob/main/LICENSE).  
 More details about the MIT License can be found [here.](https://choosealicense.com/licenses/mit/)
 
 ## Contact
-For any inquiries, please contact:
+- For any inquiries, please contact:
 - Email - <eappointmaster@gmail.com> or <yavotu@gmail.com>
 - GitHub -  [@Yavotu](https://github.com/Yavotu) or [@Lewismwaz](https://github.com/Lewismwaz)
 
