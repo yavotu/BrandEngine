@@ -15,7 +15,7 @@ A sophisticated brand name generator with domain availability checking, scoring,
 
 ## Installation
 > [!IMPORTANT]
-> If you're not interested in changing the code to your preference, simply download the executable file for BrandEngine [here](https://github.com/yavotu/BrandEngine/releases).
+> If you're not interested in customizing the repo files to your preference, simply download the executable file for BrandEngine [here](https://github.com/yavotu/BrandEngine/releases).
 
 
 1. Clone the repository:
