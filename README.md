@@ -1,5 +1,7 @@
-# Brand Engine - AI-Powered Brand Name Generator
-
+<h2 align="center">Brand Engine - AI-Powered Brand Name Generator</h2>
+<p align="center">
+	<img src="logo.png" width="80" alt="BrandEngine Logo">
+</p>
 A sophisticated brand name generator with domain availability checking, scoring, and export capabilities.
 
 ## Features
