@@ -1,5 +1,7 @@
 # Brand Engine - AI-Powered Brand Name Generator
 
+<img src="logo.png" width="90" style="text-align: center;">
+
 A sophisticated brand name generator with domain availability checking, scoring, and export capabilities.
 
 ## Features
@@ -29,9 +31,13 @@ cd BrandEngine
 ```powershell
 Get-Item assets\icon.ico | Select-Object Name, Length
 ```
+![Build Complete](icon.png)
+
 - You should see a file a few KB in size. Open it in Explorer — you should see the logo icon.
 
 3. Ensure you have latest pip and Python 3.10+ installed and both added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
+
+![Build Complete](0.png)
 
 4. Incase you get errors, download **`vc_redist.x64.exe`** from [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) into the project root.
 
