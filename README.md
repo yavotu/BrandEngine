@@ -26,9 +26,43 @@ git clone https://github.com/Lewismwaz/BrandEngine.git
 cd BrandEngine
 ```
 
-2. Ensure you have Python 3.10+ installed and added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
+2. Create icon for BrandEngine executable file.
+- Open PowerShell from `\BrandEngine`:
+- If Pillow isn't installed, run:
+```powershell
+python -m pip install Pillow
+```
+- Then run:
+```powershell
+python -c "from PIL import Image; img = Image.open('assets/logo.png').convert('RGBA'); img.save('assets/icon.ico', sizes=[(256,256),(128,128),(64,64),(48,48),(32,32),(16,16)])"
+```
+
+Verify it worked:
+```powershell
+Get-Item assets\icon.ico | Select-Object Name, Length
+```
+![Create exe icon](icon.png)
+
+3. Ensure you have Python 3.10+ installed and added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
 ![Build Complete](Complete.png)
 
-3. Locate the exe file `dist\BrandEngine.exe` and open it.
+![Build Complete](0.png)
 
-### UI
+5. Locate the exe file `dist\BrandEngine.exe` and open it.
+
+## User Interface
+![Build Complete](1.png)
+
+![Build Complete](1a.png)
+
+
+## License
+This project is licensed under the GNU License. View License [here](https://github.com/Yavotu/BrandEngine/blob/main/LICENSE).  
+More details about the MIT License can be found [here.](https://choosealicense.com/licenses/mit/)
+
+## Contact
+For any inquiries, please contact:
+- Email - <yavotu@gmail.com> or <eappointmaster@gmail.com>
+- GitHub - [@Yavotu](https://github.com/Yavotu) or [@Lewismwaz](https://github.com/Lewismwaz)
+
+[Brand Engine](https://github.com/Yavotu/BrandEngine) **©** 2026, All Rights Reserved
