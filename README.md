@@ -1,4 +1,4 @@
-# Brand Engine - AI-Powered Brand Name Generator
+<h1 align="center">Brand Engine - AI-Powered Brand Name Generator</h1>
 
 <p align="center">
   <img src="logo.png" width="80" alt="BrandEngine Logo">
