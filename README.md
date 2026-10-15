@@ -1,8 +1,4 @@
-<h1 align="center">Brand Engine - AI-Powered Brand Name Generator</h1>
-
-<p align="center">
-  <img src="logo.png" width="80" alt="BrandEngine Logo">
-</p>
+# Brand Engine - AI-Powered Brand Name Generator
 
 A sophisticated brand name generator with domain availability checking, scoring, and export capabilities.
 
@@ -20,54 +16,13 @@ A sophisticated brand name generator with domain availability checking, scoring,
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/Yavotu/BrandEngine.git
+git clone https://github.com/Lewismwaz/BrandEngine.git
 cd BrandEngine
 ```
-2. Convert `png logo` to `icon`. From root (`BrandEngine`), open terminal and run:
-   ```python
-   python -m pip install Pillow
-   python -c "from PIL import Image; img = Image.open('assets/logo.png').convert('RGBA'); img.save('assets/icon.ico', sizes=[(256,256),(128,128),(64,64),(48,48),(32,32),(16,16)])"
-   ```
 
-**Verify it worked:**
-```powershell
-Get-Item assets\icon.ico | Select-Object Name, Length
-```
-![Build Complete](icon.png)
-
-- You should see a file a few KB in size. Open it in Explorer — you should see the logo icon.
-
-3. Ensure you have latest pip and Python 3.10+ installed and both added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
-
-![Build Complete](0.png)
-
-4. Incase you get errors, download **`vc_redist.x64.exe`** from [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) into the project root.
-
-5. Build via terminal:
-   ```python
-   python build_exe.py
-   ```
- 
- OR 
- 
- - run `build_exe.py`:
- 
-![Build Complete](2.png)
-
+2. Ensure you have Python 3.10+ installed and added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
 ![Build Complete](Complete.png)
 
-### User Interface
-![Build Complete](1.png)
+3. Locate the exe file `dist\BrandEngine.exe` and open it.
 
-![Build Complete](1a.png)
-
-## License
-- This project is licensed under the GNU License. View License [here](https://github.com/Yavotu/BrandEngine/blob/main/LICENSE).  
-More details about the MIT License can be found [here.](https://choosealicense.com/licenses/mit/)
-
-## Contact
-- For any inquiries, please contact:
-- Email - <eappointmaster@gmail.com> or <yavotu@gmail.com>
-- GitHub -  [@Yavotu](https://github.com/Yavotu) or [@Lewismwaz](https://github.com/Lewismwaz)
-
-[BrandEngine](https://github.com/Yavotu/BrandEngine) **©** 2026, All Rights Reserved
+### UI
