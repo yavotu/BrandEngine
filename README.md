@@ -19,7 +19,7 @@ A sophisticated brand name generator with domain availability checking, scoring,
 git clone https://github.com/Yavotu/BrandEngine.git
 cd BrandEngine
 ```
-2. To convert `png logo` to `icon`, from root (`BrandEngine`), open terminal and run:
+2. Convert `png logo` to `icon`, from root (`BrandEngine`), open terminal and run:
    ```python
    python -m pip install Pillow
    python -c "from PIL import Image; img = Image.open('assets/logo.png').convert('RGBA'); img.save('assets/icon.ico', sizes=[(256,256),(128,128),(64,64),(48,48),(32,32),(16,16)])"
