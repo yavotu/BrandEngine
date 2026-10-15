@@ -19,11 +19,7 @@ A sophisticated brand name generator with domain availability checking, scoring,
 git clone https://github.com/Yavotu/BrandEngine.git
 cd BrandEngine
 ```
-
-2. Ensure you have Python 3.10+ installed and added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
-
-3. Incase you get errors, download **`vc_redist.x64.exe`** from [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) into the project root.
-4. To convert `png logo` to `icon`, from root (`BrandEngine`), open terminal and run:
+2. To convert `png logo` to `icon`, from root (`BrandEngine`), open terminal and run:
    ```python
    python -m pip install Pillow
    python -c "from PIL import Image; img = Image.open('assets/logo.png').convert('RGBA'); img.save('assets/icon.ico', sizes=[(256,256),(128,128),(64,64),(48,48),(32,32),(16,16)])"
@@ -34,6 +30,10 @@ cd BrandEngine
 Get-Item assets\icon.ico | Select-Object Name, Length
 ```
 - You should see a file a few KB in size. Open it in Explorer — you should see the logo icon.
+
+3. Ensure you have latest pip and Python 3.10+ installed and both added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
+
+4. Incase you get errors, download **`vc_redist.x64.exe`** from [https://aka.ms/vs/17/release/vc_redist.x64.exe](https://aka.ms/vs/17/release/vc_redist.x64.exe) into the project root.
 
 5. Build via terminal:
    ```python
