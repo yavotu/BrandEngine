@@ -42,7 +42,7 @@ You should see a file a few KB in size. Open it in Explorer — you should see t
  
  OR 
  
- run `build.exe`:
+ run `build_exe.py`:
  
 ![Build Complete](2.png)
 
