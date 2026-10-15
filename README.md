@@ -43,7 +43,7 @@ Get-Item assets\icon.ico | Select-Object Name, Length
 ```
 ![Create exe icon](icon.png)
 
-3. Ensure you have Python 3.10+ installed and added to PATH then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
+3. Ensure you have latest `pip` and Python 3.10+ installed, and both are added to PATH, then double click to open the `build.bat` or well known as `build` Windows Batch File and let it install all the required Python dependencies and also generate the executable file.
 ![Build Complete](Complete.png)
 
 ![Build Complete](0.png)
