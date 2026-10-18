@@ -22,9 +22,13 @@ A sophisticated brand name generator with domain availability checking, scoring,
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Lewismwaz/BrandEngine.git
+git clone https://github.com/yavotu/BrandEngine.git
 cd BrandEngine
 ```
+- If `git` is not installed, simply go to `Code` then `Download ZIP`.
+
+![Download repo zip](zip.png)
+
 
 2. Create icon for BrandEngine executable file.
 - Open PowerShell from `\BrandEngine`:
@@ -57,12 +61,12 @@ Get-Item assets\icon.ico | Select-Object Name, Length
 
 
 ## License
-This project is licensed under the GNU License. View License [here](https://github.com/Yavotu/BrandEngine/blob/main/LICENSE).  
-More details about the MIT License can be found [here.](https://choosealicense.com/licenses/mit/)
+This project is licensed under the GPL License. View License [here](https://github.com/yavotu/BrandEngine/blob/main/LICENSE).  
+More details about the License can be found [here.](https://choosealicense.com/licenses/gpl-3.0/)
 
 ## Contact
 For any inquiries, please contact:
 - Email - <yavotu@gmail.com> or <eappointmaster@gmail.com>
 - GitHub - [@Yavotu](https://github.com/Yavotu) or [@Lewismwaz](https://github.com/Lewismwaz)
 
-[Brand Engine](https://github.com/Yavotu/BrandEngine) **©** 2026, All Rights Reserved
+[Brand Engine](https://github.com/yavotu/BrandEngine) **©** 2026, All Rights Reserved
